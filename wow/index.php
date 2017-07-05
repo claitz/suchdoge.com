@@ -14,12 +14,11 @@
     ?>
     <title><?= "You are a " . $title[$key] . " doggo - suchdoge.com"?></title>
     <meta property="og:locale" content="en_US" />
-    <meta property="og:app_id" content="152723701942429"
+    <meta property="fb:app_id" content="152723701942429"
     <meta property="og:type" content="website" />
     <meta property="og:title" content="<?= "You are " . $title[$key] . " doggo - suchdoge.com"?>" />
     <meta property="og:description" content="Discover which doggo you are at wow.suchdoge.com" />
     <meta property="og:url" content="http://wow.suchdoge.com/" />
-    <meta property="og:site_name" content="<?= "You are " . $title[$key] . " doggo - suchdoge.com"?>" />
     <meta property="og:image" content=<?= "http://wow.suchdoge.com/i/" . "$img[$key]" . ".jpg" ?> />
     <meta property="og:image:width" content="960" />
     <meta property="og:image:height" content="640" />
