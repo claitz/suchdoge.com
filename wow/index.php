@@ -5,6 +5,7 @@
     <meta name=viewport content="width=device-width, initial-scale=1">
     <link href="assets/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <?php
     $title = array("toasted", "adventure", "bill", "chameleon", "classic", "dough", "happy", "hover", "motivational");
     $descr = array("toasted", "adventure", "bill", "chameleon", "classic", "dough", "happy", "hover", "motivational");
@@ -21,6 +22,23 @@
     <meta property="og:image" content=<?= "http://wow.suchdoge.com/i/" . "$img[$key]" . ".jpg" ?> />
     <meta property="og:image:width" content="960" />
     <meta property="og:image:height" content="640" />
+
+    <!-- refresh FB cache -->
+
+    <script>
+        $.post(
+            'https://graph.facebook.com',
+            {
+                id: 'http://www.site.com/my/share/url/',
+                scrape: true
+            },
+            function(response){
+                console.log(response);
+            }
+        );
+    </script>
+
+
     <!--   staaalking -->
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
