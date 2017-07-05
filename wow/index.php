@@ -12,7 +12,7 @@
     $key = rand(0,8);
     ?>
     <title><?= "You are a " . $title[$key] . " doggo - suchdoge.com"?></title>
-    <meta property="og:locale" content="en_EN" />
+    <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="<?= "You are " . $title[$key] . " doggo - suchdoge.com"?>" />
     <meta property="og:description" content="Discover which doggo you are at wow.suchdoge.com" />
