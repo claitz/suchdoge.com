@@ -14,6 +14,7 @@
     ?>
     <title><?= "You are a " . $title[$key] . " doggo - suchdoge.com"?></title>
     <meta property="og:locale" content="en_US" />
+    <meta property="og:app_id" content="152723701942429"
     <meta property="og:type" content="website" />
     <meta property="og:title" content="<?= "You are " . $title[$key] . " doggo - suchdoge.com"?>" />
     <meta property="og:description" content="Discover which doggo you are at wow.suchdoge.com" />
