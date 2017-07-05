@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name=viewport content="width=device-width, initial-scale=1">
-    <link href="../assets/main.css" rel="stylesheet">
+    <link href="assets/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <?php
     $title = array("toasted", "adventure", "bill", "chameleon", "classic", "dough", "happy", "hover", "motivational");
@@ -58,7 +58,7 @@
     </div>
 </div>
 
-<script src="../assets/main.js"></script>
+<script src="assets/main.js"></script>
 
 </body>
 </html>
