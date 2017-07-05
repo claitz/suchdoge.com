@@ -29,7 +29,7 @@
         $.post(
             'https://graph.facebook.com',
             {
-                id: 'http://www.site.com/my/share/url/',
+                id: 'http://wow.suchdoge.com',
                 scrape: true
             },
             function(response){
