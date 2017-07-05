@@ -17,7 +17,7 @@
     <meta property="fb:app_id" content="152723701942429"
     <meta property="og:type" content="website" />
     <meta property="og:title" content="<?= "You are " . $title[$key] . " doggo - suchdoge.com"?>" />
-    <meta property="og:description" content="Discover which doggo you are at wow.suchdoge.com" />
+    <meta property="og:description" content="Discover which doggo are you at wow.suchdoge.com" />
     <meta property="og:url" content="http://wow.suchdoge.com/" />
     <meta property="og:image" content=<?= "http://wow.suchdoge.com/i/" . "$img[$key]" . ".jpg" ?> />
     <meta property="og:image:width" content="960" />
@@ -72,7 +72,7 @@
 <div class="outer-cookie">
     <span class="doge-close" id="suchclose"></span>
     <div class="inner-cookie">
-        <p>Cookies much good for doggos, very tracking, such privacy</p>
+        <p>Cookies much good for doggos, very tracking, such <a href="https://www.iubenda.com/privacy-policy/8170037" target="_blank">privacy</a></p>
     </div>
 </div>
 

@@ -16,6 +16,11 @@ body {
     height: 100vh;
 }
 
+a {
+    text-decoration: none;
+    color: #ccc;
+}
+
 .hide {
     display: none;
 }
@@ -119,6 +124,7 @@ body {
      clear: both;
      height: 0;
      }
+
 
 .clearfix { display: inline-block; }
 /* start commented backslash hack \*/
